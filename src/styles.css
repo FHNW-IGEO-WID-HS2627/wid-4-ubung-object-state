@@ -1,0 +1,63 @@
+#app {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+span {
+  color: grey;
+  padding-left: 2px;
+  font-size: 0.75rem;
+}
+
+button {
+  background-color: white;
+  color: #007cc3;
+  cursor: pointer;
+  border: 1px solid #007cc3;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 8px;
+  min-width: 100px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+button:disabled {
+  border: 1px solid #fff;
+  background-color: #e0e0e0;
+  color: #666666;
+}
+
+input {
+  color: #007cc3;
+  padding: 4px;
+  height: 20px;
+  width: 100px;
+}
+
+h4 {
+  color: #666666;
+}
+
+#adressEingabe {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 120px;
+}
